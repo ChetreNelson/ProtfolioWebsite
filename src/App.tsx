@@ -1,12 +1,11 @@
-
+import Navbar from "./components/organism/Navbar";
 
 function App() {
- 
   return (
-    <>
-     <p>hello world</p>
-    </>
-  )
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
-export default App
+export default App;
